@@ -1,17 +1,17 @@
 [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
+    "name": "Top 10 tech companies 2022",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus venenatis ipsum, nec pharetra orci tristique non. Nam id metus fermentum, dignissim est sed, suscipit erat. In malesuada enim arcu, a gravida libero dictum quis. Vivamus at scelerisque dolor. Duis lorem sem, luctus at diam et, malesuada lobortis nisi. Nulla feugiat porttitor nunc, quis vulputate justo facilisis et. Duis a condimentum felis. Phasellus et semper massa. Nulla feugiat tincidunt ex quis luctus. Sed tempus ligula ante, vel tempor tellus scelerisque sed.",
     "needed_funding": 5000
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
+    "name": "Are NFT's a scam?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus venenatis ipsum, nec pharetra orci tristique non. Nam id metus fermentum, dignissim est sed, suscipit erat. In malesuada enim arcu, a gravida libero dictum quis. Vivamus at scelerisque dolor. Duis lorem sem, luctus at diam et, malesuada lobortis nisi. Nulla feugiat porttitor nunc, quis vulputate justo facilisis et. Duis a condimentum felis. Phasellus et semper massa. Nulla feugiat tincidunt ex quis luctus. Sed tempus ligula ante, vel tempor tellus scelerisque sed.",
     "needed_funding": 10000
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
+    "name": "Invisible Internet Money or The New World Order?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus venenatis ipsum, nec pharetra orci tristique non. Nam id metus fermentum, dignissim est sed, suscipit erat. In malesuada enim arcu, a gravida libero dictum quis. Vivamus at scelerisque dolor. Duis lorem sem, luctus at diam et, malesuada lobortis nisi. Nulla feugiat porttitor nunc, quis vulputate justo facilisis et. Duis a condimentum felis. Phasellus et semper massa. Nulla feugiat tincidunt ex quis luctus. Sed tempus ligula ante, vel tempor tellus scelerisque sed.",
     "needed_funding": 800
   }
 ]
