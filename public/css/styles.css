@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(234, 245, 214);
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* NAV BAR */
+
+.nav-bar {
+    width: 100vw;
+    /* border: rgb(255, 21, 0) solid 3px; */
+    background-color: rgb(26, 6, 4);
+    height: 250px;
+}
+
+.nav-title {
+    height: 90px;
+    width: 450px;
+    border-radius: 12px;
+    margin: 20px;
+    margin-left: 55px;
+    background-color: rgb(234, 245, 214);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 2px inset, rgb(161, 161, 161) 15px 10px 0px -3px;
+}
+
+.nav-title h1 {
+    padding: auto;
+    color: rgb(19, 3, 1);
+    font-size: 3.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.nav-bar a {
+    font-size: 2.5em;
+    color: rgb(234, 245, 214);
+    display: flex;
+    display: inline-flex;
+    /* border: tomato solid 3px; */
+    margin-left: 55px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+.nav-bar a:hover {
+    color: tomato;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* USER POST */
+
+.post-main {
+    border: solid rgb(26, 6, 4) 7px;
+    width: 90vw;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.post-header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 6, 4);
+    height: 90px;
+    width: 100%;
+}
+
+.header-title, .post-timestamp {
+    color: rgb(161, 161, 161);
+}
+
+.header-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    
+}
+
+.header-title a:visited {
+    text-decoration: none;
+}
+
+.post-timestamp {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-weight: lighter;
+}
+
+.posted-text {
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* LOGIN CONNECT */
+
+.log-connect {
+    /* border: tomato solid 3px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 150px;
+    height: 400px;
+    width: 800px;
+}
+
+.log-connect h1 {
+    font-size: 2em;
+    color: rgb(19, 3, 1);
+}
+
+.login-form {
+        /* border: tomato solid 3px; */
+}
+
+.form-group {
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* height: 100px; */
+    width: 500px;
+    display: flex;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.5em;
+    margin-top: 10px;
+}
+
+.email-text {
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.password-text {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.name-text {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.signup-main {
+    margin-top: 50px;
+    
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+CONNECT BUTTON */
+
+.login-btn {
+    width: 100px;
+    height: 30px;
+    padding: 7px;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.signup-btn {
+    width: 100px;
+    height: 30px;
+    padding: 7px;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* SIGNUP CONNECT */
+
+
+.signup-form {
+    /* border: tomato solid 3px; */
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* POST SECTION */
+
+/* 
+.post-section {
+    border: red solid 2px;
+    background-color: rgb(255, 191, 191);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1400px;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+}
+
+.post-title {
+    color: red;
+    align-content: center;
+    text-align: center;
+
+}
+
+.post-heading {
+    margin: 10px;
+    height: 30px;
+    width: 1000px;
+    align-content: center;
+    
+}
+
+.post-textarea {
+    margin: 10px;
+    height: 300px;
+    width: 1000px;
+    align-content: center;
+}
+
+.new-post-btn {
+    margin: 0 auto;
+    display: flex;
+    border: red solid 2px;
+    width: 150px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} */
